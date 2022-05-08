@@ -39,19 +39,19 @@ resources:
 #- argocd/instances/ibm-cpd-aespark-instance.yaml
 
 ## Cloud Pak for Security
-#- argocd/operators/ibm-cp4s-operator.yaml
-#- argocd/instances/ibm-cp4sthreatmanagements-instance.yaml
+- argocd/operators/ibm-cp4s-operator.yaml
+- argocd/instances/ibm-cp4sthreatmanagements-instance.yaml
 
 ## IBM Foundational Services / Common Services
-#- argocd/operators/ibm-foundations.yaml
-#- argocd/instances/ibm-foundational-services-instance.yaml
-#- argocd/operators/ibm-automation-foundation-core-operator.yaml
-#- argocd/operators/ibm-automation-foundation-operator.yaml
+- argocd/operators/ibm-foundations.yaml
+- argocd/instances/ibm-foundational-services-instance.yaml
+- argocd/operators/ibm-automation-foundation-core-operator.yaml
+- argocd/operators/ibm-automation-foundation-operator.yaml
 #- argocd/operators/ibm-license-service-operator.yaml
 #- argocd/instances/ibm-license-service-instance.yaml
 
 ## IBM Catalogs
-#- argocd/operators/ibm-catalogs.yaml
+- argocd/operators/ibm-catalogs.yaml
 
 # B2BI
 #- argocd/instances/ibm-sfg-db2.yaml

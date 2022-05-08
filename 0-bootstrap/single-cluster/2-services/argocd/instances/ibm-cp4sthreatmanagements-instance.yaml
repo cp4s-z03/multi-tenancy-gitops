@@ -30,11 +30,11 @@ spec:
       - name: spec.basicDeploymentConfiguration.adminUser
         value: adminUser
       - name: spec.basicDeploymentConfiguration.storageClass
-        value: managed-nfs-storage
+        value: ibmc-block-gold
       - name: spec.extendedDeploymentConfiguration.airgapInstall
         value: "false"
       - name: spec.extendedDeploymentConfiguration.backupStorageClass
-        value: managed-nfs-storage
+        value: ibmc-block-gold
       - name: spec.extendedDeploymentConfiguration.backupStorageSize
         value: ''
       - name: spec.extendedDeploymentConfiguration.imagePullPolicy
